@@ -1,11 +1,33 @@
 {
-  "name": "super-team-picker",
+  "name": "super_team_picker",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehakbagga/Super-Team-Picker.git"
+  },
+  "author": "Mehak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehakbagga/Super-Team-Picker/issues"
+  },
+  "homepage": "https://github.com/mehakbagga/Super-Team-Picker#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.19"
+  }
 }
